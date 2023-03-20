@@ -1,0 +1,138 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.content{
+    width: 50%;
+    margin-top: 7%;
+}
+.content h2{
+    text-align: center;
+    color: skyblue;
+}
+.content .para{
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 10%;
+}
+.content .para p{
+    line-height: 1.3;
+}
+.content #para1{
+    margin-top: 4%;
+}
+.content #para2{
+    margin-top: 4%;
+}
+.content #para3{
+    margin-top: 4%;
+}
+.skills{
+    width: 50%;
+    margin-top: 7%;
+}
+.skills h1{
+    text-align: center;
+    color: skyblue;
+}
+.skills .icon{
+    display: flex;
+    margin-top: 10%;
+    gap: 100px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.skills i{
+    font-size: 200px;
+}
+@media(max-width:1000px){
+    .skills .icon{
+        gap: 65px;
+    }
+}
+@media(max-width:950px){
+    .skills .icon{
+        gap: 55px;
+    }
+    .content .para {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 9%;
+    }
+}
+@media(max-width:900px){
+    .flex{
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+        margin-top: 4%;
+    }
+    .content .para {
+        margin-top: 4%;
+    }
+    .content .para p{
+        line-height: 1.2;
+    }
+    .skills {
+        width: 100%;
+    }
+    .skills .icon {
+        margin-top: 6%;
+        gap: 100px;
+    }
+}
+@media(max-width:850px){
+
+}
+@media(max-width:800px){
+
+}
+@media(max-width:750px){
+
+}
+@media(max-width:700px){
+    
+}
+@media(max-width:650px){
+    
+}
+@media(max-width:600px){
+    
+}
+
+@media(max-width:550px){
+    .skills i {
+        font-size: 150px;
+    }
+    .skills .icon{
+        margin-bottom: 5%;
+    }
+}
+@media(max-width:400px){
+    .content h2{
+        font-size: large;
+    }
+    .content #para1{
+        font-size: small;
+    }
+    .content #para2{
+        font-size: small;
+    }
+    .content #para3{
+        font-size: small;
+    }
+    .skills .icon {
+        gap: 75px;
+    }
+    .skills i {
+        font-size: 100px;
+    }
+}

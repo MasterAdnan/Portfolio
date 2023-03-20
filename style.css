@@ -1,0 +1,217 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main .port .mc{
+    margin-top: 1%;
+    margin-left: 2%; 
+    display: flex;
+}
+.main .port .main-cont{
+    padding-left: 3%;
+    /* background-color:aliceblue; */
+    background-color: red;
+    font-style: italic;
+    border: 2px solid gray;
+    width: 20%;
+    height: 100vh;
+    border: none;     
+}
+.main .port .main-cont .img1{
+    padding-top: 3%;
+}
+.main .port .main-cont .img1 img{
+    height: 20vh;
+    width: 70%;
+    border-radius: 50%;
+}
+.main-cont .abt{
+    margin-top: 1.5%;
+}
+.main-cont .abt h3 span{
+    color: cornflowerblue;
+}
+.main-cont .info{
+    padding-left: 20%;
+    margin-top: 35%;
+    text-decoration: none;
+}
+.main-cont .info a{
+    text-decoration: none;  
+}
+.main-cont .info a:hover{
+    outline-color: aqua;
+}
+.main-cont .info .ab{
+    margin-top: 10%;
+} 
+.main-cont .info .hm{
+    margin-top: 10%;
+}
+.main-cont .info .skl{
+    margin-top: 10%;
+}
+.main-cont .info .proj{
+    margin-top: 10%;
+}
+.main-cont .info .cnt{
+    margin-top: 10%;
+}
+.main-cont .info .ft{
+    margin-top: 75%;
+    margin-right: 26%;
+}
+.mc .bg{
+    background-image: url(/image/boy.webp);
+    font-size: 3rem;
+    padding: 4%;
+    width: 100%;
+    background-position-x: -200px;
+    background-position-y: -100px;
+}
+.mc .bg p{
+    font-size: x-small;
+}
+.mc .bg h4{
+    font-size: 2rem;
+}
+
+@media(max-width:1050px){
+    .mc .bg{
+        background-position-x: -280px;
+    }
+    }
+
+     @media(max-width:1000px){
+        .mc .bg{
+            background-position-x: -280px;
+           }
+     }
+     @media(max-width:950px){
+     .mc .bg{
+        background-position-x: -280px;
+        height: auto;
+       }
+    }
+    @media(max-width:850px){
+        .mc .bg{
+            background: url(/image/boy.webp);
+            background-size: cover;
+        }
+        .main .port .main-cont {
+            padding-left: 1%;
+        }
+        .main-cont .abt h3{
+            font-size: medium;
+        }
+        .main-cont .abt h3 span{
+            font-size: small;
+        }
+    }
+    @media(max-width:800px){
+        .mc .bg{
+            background: url(/image/boy.webp);
+            background-size: cover;
+        }
+    }
+    @media(max-width:750px){
+        .mc .bg{
+            background: url(/image/boy.webp);
+            background-size: cover;
+            background-position-x: -120px;
+        }
+    }
+    @media(max-width:700px){
+    .main-cont .abt h3 {
+        font-size: small;
+    }
+    }
+    @media(max-width:650px){
+    .mc .bg {
+        background-position-x: -160px;
+    }
+    .main-cont .info {
+        padding-left: 10%;
+    }
+    .main-cont .info .ft {
+        margin-top: 80%;
+        margin-right: 0%;
+    }
+    .mc .bg {
+        padding: 2%;
+    }
+    .main .port .main-cont .img1 {
+        padding-top: 15%;
+    }
+}
+@media(max-width:600px){
+    .main .port .main-cont {
+        height: 99vh;
+    }
+    .mc .bg {
+        background: url(/image/boy.webp);
+        background-size: cover;
+        background-position-x: -215px;
+    }
+    .main-cont .abt h3 span {
+        font-size: 0.5rem;
+    }
+}
+
+@media(max-width:550px){
+    .main .port .main-cont {
+        width: 25%;
+    }
+    .main .port .main-cont .img1 img {
+        height: 17vh;
+        width: 75%;
+        margin-left: 10%;
+    }.main-cont .info .ft {
+        margin-top: 150%;
+    }
+    .mc .bg{
+        background-position-x: -250px;
+    }
+}
+@media(max-width:500px){
+    .mc .bg {
+        background-position-x: -300px;
+    }
+    .main-cont .info a{
+        font-size: small;
+    }
+    .main-cont .info .ft {
+        margin-top: 200%;
+    }
+    .main-cont .abt {
+        margin-top: 0%;
+    }
+    .main-cont .info .ft p{
+        font-size: small;
+    }
+}
+
+@media(max-width:450px){
+    .main-cont .abt h3 {
+        font-size: x-small;
+    }
+    .main-cont .info a {
+        font-size: x-small;
+    }
+    .mc .bg {
+        background-position-x: -260px;
+    }
+    .main-cont .info .ft {
+        margin-top: 180%;
+    }
+}
+
+@media(max-width:400px){
+    .bg .cont{
+        font-size: x-large;
+    }
+    .mc .bg {
+        background-position-x: -300px;
+    }
+}

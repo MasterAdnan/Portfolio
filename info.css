@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(/image/R.jpg);
+}
+h1{
+    margin-top: 5%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.info{
+    margin-top: 6%;
+}
+.name{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 40px;
+    
+}
+input{
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid aqua;
+    outline: none;
+    width: 48%;
+    padding-bottom: 6px;
+    font-size: larger;
+}
+.youcanwritehere{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 40px;
+}
+.youcanwritehere input{
+    padding-bottom: 65px;
+}
+.contact{
+    text-align: center;
+}
+.contact button {
+    padding: 10px;
+    width: 8%;
+    background-color: skyblue;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+}
