@@ -177,7 +177,6 @@
 @media(max-width:500px){
     .mc .bg {
         background-position-x: -300px;
-        /* background-position-y: -20px; */
         padding: 0%;
     }
     .main .port .main-cont .img1 {
