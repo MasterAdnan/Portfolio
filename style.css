@@ -211,7 +211,13 @@
         font-size: x-large;
     }
     .mc .bg {
-        background-position-x: -365px;
+        background-position-x: -395px;
+    }
+    .main-cont .info .ft p {
+        font-size: x-small;
+    }
+    .main-cont .info .ft {
+        margin-top: 220%;
     }
 }
 @media(max-width:350px){
