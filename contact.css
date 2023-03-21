@@ -148,6 +148,9 @@ body{
     }
 }
 @media(max-width:450px){
+    .socialmedia {
+        margin-top: 24%;
+    }
     .d{
         margin-left: 15%;
     }
