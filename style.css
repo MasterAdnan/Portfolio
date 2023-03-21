@@ -147,7 +147,7 @@
 }
 @media(max-width:600px){
     .main .port .main-cont {
-        height: 95vh;
+        height: 91vh;
     }
     .mc .bg {
         background: url(/image/boy.webp);
