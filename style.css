@@ -20,6 +20,7 @@
 .main .port .main-cont .img1 {
     padding-top: 0%;
 }
+
 .main .port .main-cont .img1 img{
     /* height: 20vh; */
     width: 70%;
@@ -146,7 +147,7 @@
 }
 @media(max-width:600px){
     .main .port .main-cont {
-        height: 99vh;
+        height: 95vh;
     }
     .mc .bg {
         background: url(/image/boy.webp);
@@ -178,6 +179,9 @@
         background-position-x: -300px;
         background-position-y: -20px;
         padding: 0%;
+    }
+    .main .port .main-cont .img1 {
+        padding-top: 0%;
     }
     .main-cont .info a{
         font-size: small;
