@@ -177,7 +177,12 @@
 @media(max-width:500px){
     .mc .bg {
         background-position-x: -300px;
+
         padding: 0%;
+    }
+    .main .port .main-cont .img1 img {
+        height: 10vh;
+        width: 60%;
     }
     .main .port .main-cont .img1 {
         padding-top: 0%;
@@ -227,8 +232,8 @@
 }
 @media(max-width:350px){
     .main .port .main-cont .img1 img {
-        height: 12vh;
-        width: 75%;
+        height: 8vh;
+        width: 65%;
         margin-left: 8%;
     }
     .main-cont .info .ft {
