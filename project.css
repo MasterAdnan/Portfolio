@@ -174,3 +174,15 @@ body{
         height: 32vh;
     }
 }
+@media(max-width:350px){
+    .card .card1 .cardimg img {
+        height: 20vh;
+    }
+    .card .card1 .cardimg .details {
+        width: 110%;
+        height: 30vh;
+    }
+    .bio h3 {
+        font-size: x-small;
+    }
+}

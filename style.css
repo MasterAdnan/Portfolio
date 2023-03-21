@@ -10,8 +10,7 @@
 }
 .main .port .main-cont{
     padding-left: 3%;
-    /* background-color:aliceblue; */
-    background-color: red;
+    background-color:aliceblue;
     font-style: italic;
     border: 2px solid gray;
     width: 20%;
@@ -212,6 +211,19 @@
         font-size: x-large;
     }
     .mc .bg {
-        background-position-x: -300px;
+        background-position-x: -365px;
+    }
+}
+@media(max-width:350px){
+    .main .port .main-cont .img1 img {
+        height: 12vh;
+        width: 75%;
+        margin-left: 8%;
+    }
+    .main-cont .info .ft {
+        margin-top: 420%;
+    }
+    .main-cont .info .ft p {
+        font-size: xx-small;
     }
 }

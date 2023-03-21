@@ -159,7 +159,24 @@ body{
     }
 }
 @media(max-width:400px){
+    .d {
+        margin-left: 12%;
+    }
     .socialmedia .contact button {
         width: 35%;
+    }
+    .socialmedia {
+        margin-top: 28%;
+    }
+    .socialmedia .contact button {
+        width: 40%;
+    }
+}
+@media(max-width:350px){
+    .contactme p {
+        font-size: x-small;
+    }
+    .detail h2 {
+        font-size: small;
     }
 }
