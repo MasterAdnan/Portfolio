@@ -153,10 +153,11 @@ body{
     }
     .card .card1 .cardimg img {
         width: 90%;
+        height: 22vh;
     }
     .card .card1 .cardimg .details {
         width: 90%;
-        height: 35vh;
+        height: 25vh;
     }
     .bio h1{
         font-size: large;
